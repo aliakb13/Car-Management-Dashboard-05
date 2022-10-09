@@ -36,6 +36,7 @@ Selanjutnya jalankan perintah: <br/>
 ```
 sequelize db:create
 sequlize db:migrate
+npm run start
 
 //OPTIONAL : untuk menambah data dummy ke Database
 sequelize db:seed:all
