@@ -31,7 +31,12 @@ relasi diatas megambarkan bagaimana sistem akan bekerja
 npm install
 ```
 `npm install` untuk mendownload semua third party modules ke dalam project. <br/>
-Sebelum lanjut, pastikan [PostgreSQL](https://www.postgresql.org/) sudah ter-install dan berjalan di komputer. <br/>
+Sebelum lanjut, pastikan [PostgreSQL](https://www.postgresql.org/) sudah ter-install dan berjalan di komputer. <br/><br/>
+pada bagian:
+```
+config/config.json
+```
+Silahkan ganti bagian `password` sesuai dengan PostgreSQL masing-masing <br/><br/>
 Selanjutnya jalankan perintah: <br/>
 ```
 sequelize db:create
